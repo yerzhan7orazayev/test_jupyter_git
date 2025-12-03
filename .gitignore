@@ -1,0 +1,98 @@
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (adjust based on your needs)
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+*.feather
+*.hdf5
+*.h5
+
+# Model files
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pth
+*.pt
+*.ckpt
+*.pb
+*.onnx
+saved_models/
+checkpoints/
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+results/
+runs/
+
+# ML/Data Science specific
+mlruns/
+.mlflow/
+wandb/
+lightning_logs/
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# DVC (if you use it later)
+/dvc.lock
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/

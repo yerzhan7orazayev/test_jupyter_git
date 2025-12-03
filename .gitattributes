@@ -1,0 +1,2 @@
+# Strip outputs for exploratory notebooks
+notebooks/**/*.ipynb filter=nbstripout
